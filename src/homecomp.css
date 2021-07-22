@@ -1,0 +1,36 @@
+.homecomp{
+    position: relative;
+    top:-240px;
+    left:150px;
+    width:1240px;
+    height:500px;
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.backgroundLight{
+    background-color:#dcdde1;
+    border:1px solid black;
+    padding: 2px 15px;
+    border-radius:20px;
+    
+}
+
+.home__left{
+    position: relative;
+    left:0;
+    width:auto;
+    /* padding: 20px; */
+    padding-bottom: 90px;
+    padding-top:20px;
+    
+
+    
+}
+.home__left > .home__img{
+    object-fit: contain;
+    width: 800px;
+    height: 1000px;
+}

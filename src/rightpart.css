@@ -1,0 +1,19 @@
+.firstrow{
+    display:flex;
+    justify-content:space-around;
+    
+}
+.small-img{
+    object-fit:contain;
+    width:200px;
+    height:100px;
+    margin:2px 5px;
+    
+    border-top-right-radius: 31px;
+    border-top-left-radius: 31px;
+    border-bottom-left-radius: 31px;
+    border-bottom-right-radius: 31px;
+}
+
+
+

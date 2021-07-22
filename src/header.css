@@ -1,0 +1,59 @@
+.logo{
+    width: 35px;
+    height: 29px;
+}
+.user-face{
+    width: 33px;
+    height:32px;
+    position:relative;
+    top:510px;
+}
+.header__left{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 25px 20px;
+    
+    
+    
+    
+}
+.borderline{
+    position:absolute;
+    border-left: 1px solid #dcdde1;
+    height: 720px;
+    top:30px;
+    left:90px;
+}
+
+.header__left .logo {
+    margin-top: 15px;
+}
+.header__left > .camera{
+    margin-left:5px;
+    margin-top: 60px;
+}
+.header__left > .playbutton{
+    margin-left:2px;
+    margin-top:30px;
+}
+.header__right{
+    position:relative;
+    display: inline-block;
+    top:-235px;
+    left:170px
+    
+    
+}
+.header__right > .topnav > select{
+    margin-right: 630px ;
+    border: none;
+    position:relative;
+    left:-10px;
+    
+    font-weight: 370;
+    font-size:25px;
+}
+.header__right > .topnav > #cancel{
+    margin-right:40px;
+}
